@@ -1,0 +1,15 @@
+/Users/scimdeveloper/Dev/adventcode/2021/day1/bin/Debug/net5.0/day1.deps.json
+/Users/scimdeveloper/Dev/adventcode/2021/day1/bin/Debug/net5.0/day1.runtimeconfig.json
+/Users/scimdeveloper/Dev/adventcode/2021/day1/bin/Debug/net5.0/day1.runtimeconfig.dev.json
+/Users/scimdeveloper/Dev/adventcode/2021/day1/bin/Debug/net5.0/day1.dll
+/Users/scimdeveloper/Dev/adventcode/2021/day1/bin/Debug/net5.0/ref/day1.dll
+/Users/scimdeveloper/Dev/adventcode/2021/day1/bin/Debug/net5.0/day1.pdb
+/Users/scimdeveloper/Dev/adventcode/2021/day1/obj/Debug/net5.0/day1.csprojAssemblyReference.cache
+/Users/scimdeveloper/Dev/adventcode/2021/day1/obj/Debug/net5.0/day1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/scimdeveloper/Dev/adventcode/2021/day1/obj/Debug/net5.0/day1.AssemblyInfoInputs.cache
+/Users/scimdeveloper/Dev/adventcode/2021/day1/obj/Debug/net5.0/day1.AssemblyInfo.cs
+/Users/scimdeveloper/Dev/adventcode/2021/day1/obj/Debug/net5.0/day1.csproj.CoreCompileInputs.cache
+/Users/scimdeveloper/Dev/adventcode/2021/day1/obj/Debug/net5.0/day1.dll
+/Users/scimdeveloper/Dev/adventcode/2021/day1/obj/Debug/net5.0/ref/day1.dll
+/Users/scimdeveloper/Dev/adventcode/2021/day1/obj/Debug/net5.0/day1.pdb
+/Users/scimdeveloper/Dev/adventcode/2021/day1/obj/Debug/net5.0/day1.genruntimeconfig.cache
