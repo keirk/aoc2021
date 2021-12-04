@@ -3,7 +3,6 @@ import _ from "lodash";
 
 const input = puzzle;
 const numbers = input[0].split(",").map((i) => parseInt(i, 10));
-console.log(numbers);
 const createBoards = (input) =>
   _.chunk(
     input.map((l) =>
@@ -54,21 +53,17 @@ numbers.every((n) => {
   // for every number, while some boards are not won
   // check each board for a winner
   // keep a list of winning boards
-  boards.filter(b => !b.won).forEach((board) => {
-    const winner = check(matchBoard(board, n));
-    if (winner) {
-      winners.push([board, n]);
-    }
-  });
+  boards
+    .filter((b) => !b.won)
+    .forEach((board) => {
+      const winner = check(matchBoard(board, n));
+      if (winner) {
+        winners.push([board, n]);
+      }
+    });
 
   return boards.some((b) => !b.won);
 });
 
 const [last, n] = _.last(winners);
-console.log(
-  winners,
-  //   sum: getUnmatchedSum(last),
-  //   last: JSON.stringify(last),
-  //   n,
-  getUnmatchedSum(last) * n,
-);
+console.log(getUnmatchedSum(last) * n);
