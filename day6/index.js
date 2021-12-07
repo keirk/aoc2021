@@ -1,4 +1,5 @@
 import { test, puzzle } from "./input.js";
+import _ from "lodash";
 //console.log(test, puzzle);
 const input = test;
 
@@ -17,7 +18,7 @@ const solve = (input, days) => {
     dayWiseFishCount[6] += fishReadyToCreate;
   }
 
-  return dayWiseFishCount.reduce((c, f) => c + f, 0);
+  return _.sum(dayWiseFishCount);
 };
 
 console.log(solve(input, 256));
